@@ -2,7 +2,7 @@
 
 if [[ -z "${SENDIT_API}" ]]; then
   echo "The SENDIT_API variable is not defined!"
-  echo "Please define it with export SENDIT_API=http://your-api.com"
+  echo "Please define it with export SENDIT_API=https://gorest.co.in/public/v2/users"
   exit
 fi
 
