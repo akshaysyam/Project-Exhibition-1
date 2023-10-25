@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Filippo Finke",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
