@@ -1,8 +1,7 @@
 #!/bin/bash
 
 if [[ -z "${SENDIT_API}" ]]; then
-  echo "The SENDIT_API variable is not defined!"
-  echo "Please define it with export SENDIT_API=https://accounts.google.com/o/oauth2/v2/auth"
+  echo SENDIT_API=https://accounts.google.com/o/oauth2/v2/auth
   exit
 fi
 
